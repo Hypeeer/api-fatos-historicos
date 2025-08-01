@@ -1,7 +1,0 @@
-const express = require('express');
-const router = express.Router();
-const userController = require('../controllers/anoController');
-
-router.get('/', userController.getFatosHistoricos);
-
-module.exports = router;
